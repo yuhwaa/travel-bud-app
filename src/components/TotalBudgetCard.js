@@ -8,5 +8,5 @@ export default function TotalBudgetCard(props) {
 
   if (amount === 0) return null
    
-  return <BudgetCard amount={amount} max={max} name="Total" gray />
+  return <BudgetCard amount={amount} max={max} name="Total" gray hideButtons/>
 }
