@@ -25,11 +25,12 @@ function App() {
     <>
     <Container className="my-4">
     <Stack direction="horizontal" gap="2" className="mb-4">
-      <h1 className="me-auto">Budget</h1>
+      <h1 className="me-auto">Travel Budgets Tracker</h1>
       <Button variant="primary" onClick={() => setShowAddBudgetModal(true)}>Add Budget</Button>
       <Button variant="outline-primary" onClick={openAddExpenseModal}>
         Add Expense</Button>
     </Stack>
+    
     <div
       style={{
         display: "grid",
@@ -38,10 +39,10 @@ function App() {
         alignItems: "flex-start",
       }}
     >
-      {budgets.map(budget => {
+      {budgets.length === 0 ? "There's no budget to show"  : budgets.map(budget => {
         const amount = getBudgetExpenses(budget.id).reduce((total, expense) => total + expense.amount, 0)
         return ( 
-        <BudgetCard 
+       <BudgetCard 
         key={budget.id}
         name={budget.name}
         amount={amount} 
