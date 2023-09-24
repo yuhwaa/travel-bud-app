@@ -3,7 +3,7 @@ Track and visualize your trip budgets and expenses with ease. Color indicators s
 
 <!--**Link to project:** http://recruiters-love-seeing-live-demos.com/-->
 
-![Travel Budget App Screeshot](https://ibb.co/PxThFP7)
+![Travel Budget App Screeshot](/public/travel-budget-app.png)
 
 ## How It's Made:
 
