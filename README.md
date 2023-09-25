@@ -1,11 +1,11 @@
 # Travel Budget App
 Track and visualize your trip budgets and expenses with ease. Color indicators show your spending progress for each trip.
 
-[![Video Demo](/public/travel-budget-app.png)](https://youtu.be/tRJMaQjOos4)
+<!--[![Video Demo](/public/travel-budget-app.png)](https://youtu.be/tRJMaQjOos4)-->
 
 **Link to project:** https://travel-budget-tracker.netlify.app/
 
-![Travel Budget App Screeshot](/public/travel-budget-app.png)
+![Travel Budget App](/public/travel-budget-app.gif)
 
 ## How It's Made:
 
